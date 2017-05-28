@@ -1,0 +1,138 @@
+[  
+   {  
+      "name":"Abigale the Whale!",
+      "headline":"Greeting small one, I am abigale, the giant of the seas, and I am here to help you in your hunt for information. I have a few questions for you that will hopefully help you solve the quest that TinTin gave to you",
+      "questions":[     
+         {  
+            "question":"How heavy can a whale get?",
+            "answers":[  
+               "A. 270 kg",
+               "B. 1 ton",
+               "C. over 150 tons"
+            ],
+            "corectAnswer":"C. over 150 tons"
+         },
+         {  
+            "question":"Do whales give birth to live babies that they take care of?",
+            "answers":[  
+               "A. Yes",
+               "B. Some of them",
+               "C. No"
+            ],
+            "corectAnswer":"A. Yes"
+         },
+         {  
+            "question":"How small can a whale be?",
+            "answers":[  
+               "A. 37m",
+               "B. 100m",
+               "C. 3m"
+            ],
+            "corectAnswer":"C. 3m"
+         }
+      ],
+      "img":"..\/assets\/characters\/abigale.png"
+   },
+   {  
+      "name":"Austin the dolphin!",
+      "headline":"Hello there, I am Austin I have prepared a few questions for you that you have to answer in order to know that you have the information needed for TinTin, I hope you will have fun with them!",
+      "questions":[  
+         {  
+            "question":"What is the average size of a fully groun dolphin like austin?",
+            "answers":[  
+               "A. 2-3m",
+               "B. 5-7m",
+               "C. 10-15m"
+            ],
+            "corectAnswer":"B. 5-7m"
+         },
+         {  
+            "question":"Where could you see dolphin in their natural habitat?",
+            "answers":[  
+               "A. The Ocean",
+               "B. In Lakes",
+               "C. In Rivers"
+            ],
+            "corectAnswer":"A. The Ocean"
+         },
+         {  
+            "question":"What do dolphins use to breath that makes them different from fish?",
+            "answers":[  
+               "A. Blowholes",
+               "B. Nose",
+               "C. Gills"
+            ],
+            "corectAnswer":"A. Blowholes"
+         }
+      ],
+      "img":"..\/assets\/characters\/austin.png"
+   },
+   {  
+      "name":"Lucille the Seal!",
+      "headline":"Hey, I'm lucile the seal, if you need to know something, you came to the right person, I've prepares a couple of questions for you that are sure to send you in the right direction. Sooner or later you will find yourself with all the knowledge you need.",
+      "questions":[  
+         {  
+            "question":"What type of animals are seals",
+            "answers":[  
+               "A. Semiaquatic",
+               "B. Aquatic",
+               "C. Terestrial"
+            ],
+            "corectAnswer":"A. Semiaquatic"
+         },
+         {  
+            "question":"What does a seal usually eat?",
+            "answers":[  
+               "A. Algae",
+               "B. Squid",
+               "C. Fish"
+            ],
+            "corectAnswer":"C. Fish"
+         },
+         {  
+            "question":"How long can a seal live on average?",
+            "answers":[  
+               "A. 25-30 years",
+               "B. 5-10 years",
+               "C. 30+ years"
+            ],
+            "corectAnswer":"A. 25-30 years"
+         }
+      ],
+      "img":"..\/assets\/characters\/lucille.png"
+   },
+   {  
+      "name":"Jack the crab!",
+      "headline":"Hello, hello!, I am Jack the crab and I'm hiding a few questions under my shell. Now that you are here I'm going to lay them down so you can answer them, maybe something good can come out of it, don't you think?",
+      "questions":[  
+         {  
+            "question":"How is the crab shell called?",
+            "answers":[  
+               "A. Carapace",
+               "B. Home",
+               "C. Exoskeleton"
+            ],
+            "corectAnswer":"C. Exoskeleton"
+         },
+         {  
+            "question":"How many species of crabs exist on earth?",
+            "answers":[  
+               "A. 435",
+               "B. 2102",
+               "C. 4500+"
+            ],
+            "corectAnswer":"C. 4500+"
+         },
+         {  
+            "question":"How many legs does a crab have?",
+            "answers":[  
+               "A. 10",
+               "B. 6",
+               "C. 4"
+            ],
+            "corectAnswer":"A. 10"
+         }
+      ],
+      "img":"..\/assets\/characters\/jack.png"
+   }
+]

@@ -1,0 +1,144 @@
+
+
+#map-modal {
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	height: 100vh;
+	width: 100vw;
+	display: none;
+	opacity: 0;
+	transition: opacity 0.3s ease-out;
+}
+#center-map {
+	display: block;
+	margin: 0 auto;
+	margin-top: 10vh;
+	height: 60vh;
+}
+#close-map-btn {
+	padding: 5vh;
+	cursor: pointer;
+}
+#close-map-btn, #open-map-btn, #home-btn {
+	transition: opacity 0.2s ease-out;
+}
+#close-map-btn:hover, #open-map-btn:hover, #home-btn:hover {
+	opacity: 0.8;
+}
+#sub-quest-wrapper {
+	height: 100vh;
+	transition: opacity 1s ease-out, margin-top 0.5s ease-out;
+}
+#sub-quests-container {
+	text-align: center;
+	display: flex;
+	flex-flow: row;
+	align-items: baseline;
+	justify-content: space-around;
+}
+.sub-quest {
+	width: 100%;
+	margin: 2vw;
+	cursor: pointer;
+	transition: opacity 0.2s ease-out
+}
+.sub-quest:hover {
+	opacity: 0.8;
+}
+.sub-quest * {
+	margin: 1vw;
+}
+.sub-quest .character-image {
+	height: 30vh;
+}
+#sub-quest-headline{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	padding: 8vh;
+}
+#sub-quest-headline img {
+	height: 9vh;
+	cursor: pointer;
+}
+
+/*SUBQUEST CONTENT CSS*/
+
+#sub-quest-content {
+	padding: 5vw;
+	height: 100vh;
+	transition: opacity 1s ease-out, margin-top 0.5s ease-out;
+}
+#sub-quest-header{
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+}
+
+#sub-quest-header-content {
+	width: 80%;
+}
+#sub-quest-image{
+	height: 30vh;
+}
+
+#quest-question {
+	width: 70%;
+	background-color: white;
+	margin: auto;
+	padding: 4vw;
+	border-radius: 50px;
+}
+#next-question-btn {
+	float: right;
+}
+
+#quest-question-content {
+	transition: all 0.3s ease-out;
+}
+#answers {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.answer-btn {
+	width: 20%;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+}
+.answer-btn:hover {
+	background-color: rgb(230, 230, 230);
+}
+/*SUBQUEST CONTENT CSS END*/
+
+/*CONGRATS CSS*/
+
+#congrats {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+	transition: all 0.5s ease-out;
+}
+.congrats-col {
+	width: 50%;
+}
+#tintin-congrats {
+	margin-left: 10vw;
+	margin-top: 5vh;
+	height: 100%;
+	float: right;
+}
+#congrats-text{
+	text-align: center;
+	padding: 15vh;
+	transition: opacity 0.5s ease-out;
+}
+
+#back-btn {
+	margin-top: 4vh;
+}
+/*CONGRATS CSS END*/
