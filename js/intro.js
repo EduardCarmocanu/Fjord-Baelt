@@ -65,7 +65,7 @@ $('#start1-btn').onclick = () => {
 $('#exit-btn').onclick = () => {
 	$('#preloader').style.display = 'block';
 	$('#preloader').style.opacity = 1;
-	$('exit-btn').style.display = 'none';
+	$('#exit-btn').style.display = 'none';
 
 	window.location.assign('http://www.fjordbaelt.dk/');
 

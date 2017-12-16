@@ -19,10 +19,13 @@
 	<main id="main-content-container">
 		<div class="intro-slide" id="intro-screen">
 			<div id="intro-screen-controls">
-				<h2><img src="assets/seaquest-title.png"></h2><br>
+				<img src="assets/seaquest-title.png" id="title"><br>
 				<img class="intro-menu-btn btn" id="start-adventure-btn" src="assets/start-adventure.png">
 				<img class="intro-menu-btn btn" id="exit-btn" src="assets/exit.png">
 			</div>
+
+				<!-- <img src="assets/logo.jpg" id="logo"> -->
+				
 		</div>
 		<div class="intro-slide" id="welcome-message-container">
 			<div class="welcome-message-col" id="tintin-welcome-image-container">
@@ -48,9 +51,7 @@
 				<img src="assets/go.png" class="start-btn btn" id="start1-btn">
 			</div>
 		</div>
-		<div id="logo-wrapper">
-			<img src="assets/logo.png" id="logo">
-		</div>
+
 	</main>
 	<script type="text/javascript" src="js/intro.js"></script>
 </body>

@@ -232,7 +232,7 @@ function exitGame () {
 				</h3>
 				<br>
 				<br>
-				<a href="../diploma?player=` + playerName + `"><img class="btn" src="../assets/claim-diploma.png"></a>
+				<a href="../diploma?player=` + playerName + `"><img class="btn" id="claim-diploma-btn" src="../assets/claim-diploma.png"></a>
 			`;
 
 		$('#congrats-text').style.opacity = 1;

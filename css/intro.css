@@ -1,52 +1,158 @@
-
 #intro-screen {
+	background-position: center center;
+	background-repeat: no-repeat;
 	background-image: url('../assets/intro-screen.png');
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	transition: all 1s ease-out;
+	transition: opacity 1s ease-out, margin-top 1s ease-out;
 }
 #intro-screen-controls {
-	float: right;
-	width: 30%;
-	margin-right: 10vw;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
+	float: right;
+	margin-right: 10vw;
 	margin-top: 17vh;
-
+	width: 30%;
 }
 .intro-menu-btn {
-	width: 60%;
 	cursor: pointer;
 	margin: 5px;
+	width: 60%;
 }
-
-/*INTRO SCREEN CSS END*/
-
-/*WELCOME CSS*/
 #welcome-message-container{
+	align-content: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-content: center;
-}
-#welcome-message-container #player-name{
-	
 }
 #tintin-welcome {
-	margin-left: 10vw;
-	margin-top: 5vh;
-	height: 100%;
 	float: right;
+	height: 100%;
+	margin-left: 8vw;
+	margin-top: 5vh;
 }
 #welcome-text {
-	text-align: center;
 	padding: 15vh;
-	transition: opacity 0.3s ease-out;
+	text-align: center;
+	transition: opacity .3s ease-out;
 }
 .start-btn {
-	width: 40%;
 	font-size: 1em;
+	width: 40%;
 }
-/*WELCOME CSS END*/
+#logo-wrapper {
+	height: 95%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+#logo-wrapper img {
+	width: 15%;
+	display: block;
+	margin-left: 6%;
+}
+#player-name {
+	text-align: center;
+}
+#logo {
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 41%;
+}
+#title {
+	max-width: 150%;
+}
+@media screen and (max-width: 1268px) {
+	#tintin-welcome {
+		margin-left: 0;
+	}
+	#welcome-text {
+		padding: 7%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.start-btn {
+		width: 20%;
+	}
+	#tintin-welcome-image-container {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 768px) {
+		#title {
+	        width: 90%
+	    }
+	    .intro-menu-btn {
+			width: 60%;
+	    }
+	    .btn {
+	    	max-width: initial;
+	    }
+	    #intro-screen-controls {
+			float: none;
+			margin-top: 0;
+			width: 100%;
+			padding: 15%;
+		}
+		#tintin-welcome-image-container {
+			display: none;
+		}
+		#welcome-text{
+			padding: 7%;
+			/*font-size: .8rem;*/
+		}
+		.start-quest-btn {
+			width: 20%;
+		}
+		#player-name {
+			width: 42%;
+			height: 5%;
+			padding: 2%;
+			font-size: 1.2em;
+		}
+		.start-btn {
+			width: 30%;
+		}
+	@media screen and (max-width: 480px) {
+	    #welcome-text{
+			padding: 5%;
+			font-size: .8rem;
+		}
+		#player-name {
+			font-size: 1.2em;
+		}
+		#intro-screen-controls {
+			 padding: 0%;
+		}
+		#title {
+			padding-top: 20%;
+		}
+	}
+}
+@media screen and (min-width: 1640px) {
+	#player-name {
+		font-size: 1.3em;
+	}
+	#tintin-welcome {
+		margin-left: 5vw;
+	}
+}
+@media screen and (min-width: 2000px) {
+	#player-name {
+		font-size: 2em;
+	}
+	label {
+		font-size: 2em;
+	}
+	#tintin-welcome {
+		margin-left: 16vw;
+	}
+	.start-btn {
+		width: 30%;
+	}
+	#title {
+		width: 130%;
+	}
+
+}

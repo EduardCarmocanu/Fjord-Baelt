@@ -63,7 +63,7 @@
 					<p id="quest-headline">{{ Headline }}</p>
 				</div>
 				<div id="sub-quest-header-image">
-					<img id="sub-quest-image" src="#">	
+					<img id="sub-quest-image" class="center" src="#">	
 				</div>
 			</div>
 			<br>
@@ -84,7 +84,7 @@
 			<img class="btn" id="back-btn" src="../assets/back-btn.png">
 		</section>
 		<section id="congrats">
-			<div class="congrats-col">
+			<div class="congrats-col" id="tintin-congrats-wrapper">
 				<img src="../assets/tintin.png" id="tintin-congrats">
 			</div>
 			<div class="congrats-col" id="congrats-text">
@@ -94,27 +94,19 @@
 					left for me to solve, you are such a great help!
 					<br>
 					<br>
-					<span id="player-name">{{ Player name }}</span>, we made a diploma for you so you can
-					show it to everyone (and be very proud) how you
-					helped the animals in need!
+					<span id="player-name">{{ Player name }}</span>, Now that you have finished one of the quests, you have the options to continue or claim the diploma that we have made for you.
 					<br>
 					<br>
- 					Well done! I knew you
-					were special and you could do it from the beginning!
-					You can just save this or go to the helpdesk to
-					print it out for you!
+					I hope you want to continue, I still need you to find out more about the animals.
 				</h3>
-				<br>
-				<br>
+				<h2><br>Shall we continue?</h2>
 				<img src="../assets/yes.png" class="btn" id="continue-btn">
-				<a href="../diploma?player=" id="exit-link"><img src="../assets/no.png" class="btn" id="exit-btn"></a>
+				<img src="../assets/no.png" class="btn" id="exit-btn"></a>
 			</div>
 		</section>
 	</main>
 	<!-- playerName variable declared here in order for the other .js files to have access to it -->
-	<script type="text/javascript"> var playerName = "<?php echo $_GET['player']; ?>"; 
-		document.getElementById('exit-link').setAttribute('href', '../diploma?player=' + playerName);
-	</script>
+	<script type="text/javascript"> var playerName = "<?php echo $_GET['player']; ?>"; </script>
 	<script type="text/javascript" src="../js/game.js"></script>
 </body>
 </html>
